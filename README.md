@@ -79,7 +79,7 @@ You can load it like this:
 
 ```python
 import torch
-from crnn import EmotionCRNN  # Replace with actual class if needed
+from crnn import EmotionCRNN
 
 model = EmotionCRNN()
 model.load_state_dict(torch.load("ser_model.pth", map_location="cpu"))
